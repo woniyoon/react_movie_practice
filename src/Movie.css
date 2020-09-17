@@ -44,9 +44,10 @@
 }
 
 .movie_summary {
-    display: -webkit-box;
+    /* 긴 문자열을 자를 때 */
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; */
     margin: 10px 0px;
     overflow: hidden;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
 }
