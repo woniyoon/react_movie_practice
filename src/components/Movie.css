@@ -5,6 +5,13 @@
     grid-template-columns: auto auto;
 }
 
+@media screen and (max-width: 1300px) {
+    .movies{
+        grid-template-columns: auto;
+        width: 90vw;
+    }
+}
+
 .movies_movie {
     display: flex;
     flex-direction: row;
@@ -45,9 +52,9 @@
 
 .movie_summary {
     /* 긴 문자열을 자를 때 */
-    /* display: -webkit-box;
+    display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6; */
+    -webkit-line-clamp: 4;
     margin: 10px 0px;
     overflow: hidden;
 }
